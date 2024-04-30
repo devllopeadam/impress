@@ -13,7 +13,8 @@ export default {
         "dark-secondary": "rgba(65, 45, 61, 0.8)",
         "dark-divider": "rgba(51, 41, 36, .08)",
         "background": "#f5f3f2",
-        "stroke": "#edebe8"
+        "white-stroke": "#edebe8",
+        "white-secondary": "rgba(255, 255, 255, .7)",
       },
       borderRadius: {
         "radius": "12px"

@@ -10,7 +10,6 @@ body {
   line-height: 1.4;
   font-size: 16px;
   @apply bg-background;
-  /* min-height: 500vh; */
 }
 
 @layer components {
@@ -23,10 +22,29 @@ body {
   }
 }
 
-.header {
-  width: calc(100% - 28px);
+@layer utilities {
+  .header {
+    width: calc(100% - 28px);
 
-  @media (max-width:992px) {
-    width: calc(100% - 16px);
+    @media (max-width:992px) {
+      width: calc(100% - 16px);
+    }
+  }
+
+  .gradient {
+    -webkit-mask: linear-gradient(90deg,
+        transparent,
+        white 20%,
+        white 80%,
+        transparent);
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  }
+
+  .section {
+    @apply w-full mx-auto py-16;
+  }
+
+  .title {
+    box-shadow: inset 0 0 0 1px rgba(51, 41, 36, .08);
   }
 }

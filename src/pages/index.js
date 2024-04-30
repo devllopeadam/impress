@@ -4,7 +4,8 @@ import Features from "./Features";
 import About from "./About";
 import Pricing from "./Pricing";
 import Error from "./Error";
-
+import Blogs from "./Blogs";
+import Blog from "./Blog";
 
 export {
   Layout,
@@ -12,5 +13,7 @@ export {
   Features,
   About,
   Pricing,
-  Error
+  Blogs,
+  Blog,
+  Error,
 };

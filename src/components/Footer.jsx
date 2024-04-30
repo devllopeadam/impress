@@ -1,23 +1,12 @@
 import { motion } from "framer-motion";
-import { row1, row2 } from "../constants";
+import { row1, row2, variants } from "../constants";
 import { Link } from "react-router-dom";
 import { YellowButton } from "../components";
 import { LogoHeader } from "../assets";
 
 const Footer = () => {
-  const variants = {
-    animate: {
-      opacity: 1,
-      y: 0,
-    },
-    hidden: {
-      opacity: 0,
-      y: 30,
-    },
-  };
   return (
     <motion.div
-      animate={"animate"}
       variants={variants}
       initial="hidden"
       whileInView={"animate"}
@@ -114,13 +103,13 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full h-[1px] bg-dark-divider"></div>
-          <div className="flex items-center justify-between flex-wrap gap-5">
+          <div className="flex items-center justify-between flex-wrap gap-4">
             <Link
               to="/"
               className="">
               <img src={LogoHeader} />
             </Link>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-5">
               <a
                 href="#"
                 className="text-[14px] text-dark-secondary hover:text-dark-secondary duration-300 transition-colors">

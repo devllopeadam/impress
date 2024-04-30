@@ -1,8 +1,20 @@
+import {
+  BlogSection,
+  FeaturesSection,
+  HomeHero,
+  StatisticsSection,
+  TestimonialsSection,
+} from "../containers";
+
 const Home = () => {
   return (
-    <div>
-      <h1>Jeniah Adam</h1>
-    </div>
+    <>
+      <HomeHero />
+      <FeaturesSection />
+      <StatisticsSection />
+      <TestimonialsSection />
+      <BlogSection />
+    </>
   );
 };
 
