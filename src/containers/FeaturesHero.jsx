@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { featuresCards, variants } from "../constants";
 
-const FeaturesSection = () => {
+const FeaturesHero = () => {
   return (
     <div className="section">
       <motion.div
@@ -10,14 +10,16 @@ const FeaturesSection = () => {
         whileInView={"animate"}
         viewport={{ once: true }}
         transition={{ duration: 0.8, delay: 0.3 }}
-        className="container">
-        <div className="flex mb-14 flex-col items-center justify-center max-w-[800px] gap-5 mx-auto">
-          <div className="title flex items-center justify-center text-[12px] text-dark-secondary py-[6px] px-3 rounded-full">
-            <p>Features</p>
-          </div>
-          <h1 className="max-sm:text-[32px] text-[45px] font-semibold text-dark-primary text-center leading-[1.1] tracking-tight">
-            Handy features that will help reach your goals
+        className="container flex flex-col">
+        <div className="flex mb-14 flex-col items-center justify-center max-w-[800px] gap-6 mx-auto">
+          <h1 className="max-sm:text-[32px] text-[56px] font-semibold text-dark-primary text-center leading-[1.1] tracking-tight">
+            Explore our features
           </h1>
+          <p className="max-w-[620px] text-dark-secondary text-center">
+            {`Discover the powerful tools and capabilities that make Impress the
+            ultimate solution for all your content creation needs. We've got
+            everything you need to bring your ideas to life.`}
+          </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 grid-rows-[auto] gap-4">
           {featuresCards.map((card, i) => {
@@ -65,4 +67,4 @@ const FeaturesSection = () => {
   );
 };
 
-export default FeaturesSection;
+export default FeaturesHero;

@@ -1,5 +1,14 @@
+import { PageTitle } from "../components";
+import { CamparePlans, PricingHero, QuickHelp } from "../containers";
 const Pricing = () => {
-  return <div>Pricing</div>;
+  return (
+    <>
+      <PageTitle title={"Pricing"} />
+      <PricingHero />
+      <CamparePlans />
+      <QuickHelp />
+    </>
+  );
 };
 
 export default Pricing;

@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
           <div className="title flex items-center justify-center text-[12px] text-dark-secondary py-[6px] px-3 rounded-full">
             <p>Testimonials</p>
           </div>
-          <h1 className="text-[45px] font-semibold text-dark-primary text-center leading-[1.1] tracking-tight">
+          <h1 className="max-sm:text-[32px] text-[45px] font-semibold text-dark-primary text-center leading-[1.1] tracking-tight">
             Clients loves us
           </h1>
         </div>

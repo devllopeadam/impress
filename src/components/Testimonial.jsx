@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 const Testimonial = ({ image, name, logoCompany }) => {
   return (
     <motion.div
-      initial={{ opacity: 0 }} // Initial scale and opacity
-      animate={{ opacity: 1 }} // Final scale and opacity
-      exit={{ opacity: 0 }} // Exit scale and opacity
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
       transition={{
         delay: 0.2,
         duration: 0.3,

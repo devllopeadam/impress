@@ -12,7 +12,7 @@ const Footer = () => {
       whileInView={"animate"}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.25 }}
-      className="">
+      className="py-10">
       <div className="container">
         <div className="flex flex-col gap-4">
           <div className="grid grid-cols-3 gap-5 md:grid-cols-[1fr_1fr_1fr_2fr] grid-rows-[auto] pb-5">

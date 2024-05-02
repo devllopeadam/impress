@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
+import { PageTitle } from "../components";
 
 const Blog = () => {
   const { name } = useParams();
 
-  console.log(name);
-
   return (
     <div>
+      <PageTitle title={name} />
       <p className="text-3xl">{name}</p>
     </div>
   );

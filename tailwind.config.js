@@ -15,6 +15,7 @@ export default {
         "background": "#f5f3f2",
         "white-stroke": "#edebe8",
         "white-secondary": "rgba(255, 255, 255, .7)",
+        "white-background-dark": "#ebe7e6",
       },
       borderRadius: {
         "radius": "12px"

@@ -1,9 +1,12 @@
 import {
   BlogSection,
+  ElevateBusiness,
   FeaturesSection,
   HomeHero,
+  QuickHelp,
   StatisticsSection,
   TestimonialsSection,
+  UnlockIt,
 } from "../containers";
 
 const Home = () => {
@@ -14,6 +17,9 @@ const Home = () => {
       <StatisticsSection />
       <TestimonialsSection />
       <BlogSection />
+      <ElevateBusiness />
+      <QuickHelp />
+      <UnlockIt />
     </>
   );
 };

@@ -32,7 +32,7 @@ const HomeHero = () => {
               loading="lazy"
             />
           </Link>
-          <h1 className="text-white text-[40px] sm:text-[56px] font-bold tracking-tighter">
+          <h1 className="text-white max-sm:text-[32px] text-[40px] sm:text-[56px] font-bold tracking-tighter">
             Unlock the power of seamless design solutions
           </h1>
           <p className="text-white-secondary font-medium max-w-[550px]">

@@ -21,6 +21,16 @@ import Blog6 from "./images/blog-6.jpeg";
 import Blog7 from "./images/blog-7.jpeg";
 import Blog8 from "./images/blog-8.jpeg";
 import Blog9 from "./images/blog-9.jpeg";
+import Elevate from "./images/elevate.webp";
+import Card1 from "./images/card-1.webp";
+import Card2 from "./images/card-2.webp";
+import AboutHeroImage from "./images/about-hero.webp";
+import Mission from "./images/mission.webp";
+import Story from "./images/story.webp";
+import Member1 from "./images/member1.webp";
+import Member2 from "./images/member2.webp";
+import Member3 from "./images/member3.webp";
+import Member4 from "./images/member4.webp";
 
 import LogoHeader from "./logos/logo-header.svg";
 import Logo1 from "./logos/logo_1.svg";
@@ -41,6 +51,11 @@ import Linkedin from "./icons/Linkedin.svg";
 import Tiktok from './icons/Tiktok.svg';
 import Youtube from "./icons/Youtube.svg";
 import ChevronRight from "./icons/chevron-right.svg";
+import Calendar from "./icons/calendar-days.svg";
+import CalendarWhite from "./icons/calendar-white.svg";
+import Plus from "./icons/plus.svg";
+import Check from "./icons/check.svg";
+import Minus from "./icons/minus.svg";
 
 export {
   HomeHeroImg,
@@ -60,6 +75,16 @@ export {
   Blog7,
   Blog8,
   Blog9,
+  Member1,
+  Member2,
+  Member3,
+  Member4,
+  AboutHeroImage,
+  Elevate,
+  Card1,
+  Card2,
+  Mission,
+  Story,
   ButtonLeft,
   ButtonRight,
   Stars,
@@ -78,6 +103,11 @@ export {
   Tiktok,
   Youtube,
   ChevronRight,
+  Calendar,
+  CalendarWhite,
+  Plus,
+  Check,
+  Minus,
 
   Logo1,
   Logo2,

@@ -1,8 +1,12 @@
+import { PageTitle } from "../components";
+import BlogHero from "../containers/BlogHero";
+
 const Blogs = () => {
   return (
-    <div>
-      <p>Blogs</p>
-    </div>
+    <>
+      <PageTitle title={"Blog"} />
+      <BlogHero />
+    </>
   );
 };
 
