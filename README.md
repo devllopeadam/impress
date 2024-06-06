@@ -2,7 +2,7 @@
 
 # Impress React Project
 
-This project is a React application inspired by the Impress template from Webflow. It aims to provide a modern and customizable solution for creating cryptocurrency-related websites. The project utilizes Vite for fast development, Framer Motion for smooth animations, and Shadcn UI for stylish components.
+This project is a React application inspired by the Impress template from Webflow. It aims to provide a modern and customizable solution. The project utilizes Vite for fast development, Framer Motion for smooth animations, and Shadcn UI for stylish components.
 
 ## Features 🎉
 
