@@ -15,6 +15,10 @@ import AboutHero from "./AboutHero";
 import MessionsSections from "./MessionsSections";
 import Team from "./Team";
 import BlogHero from './BlogHero';
+import BlogsFilter from "./BlogsFilter";
+import BlogItemHero from "./BlogItemHero";
+import ContactHero from "./ContactHero";
+import Form from "./Form";
 
 export {
   HomeHero,
@@ -33,5 +37,9 @@ export {
   AboutHero,
   MessionsSections,
   Team,
-  BlogHero
+  BlogHero,
+  BlogsFilter,
+  BlogItemHero,
+  ContactHero,
+  Form
 };

@@ -1,21 +1,29 @@
+import { motion } from "framer-motion";
 import { Mission, Story } from "../assets";
-import { statistics } from "../constants";
+import { statistics, variants } from "../constants";
 
 const MessionsSections = () => {
   return (
     <div className="section">
-      <div className="container flex flex-col gap-12">
+      <motion.div
+        variants={variants}
+        initial="hidden"
+        whileInView={"animate"}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="container flex flex-col gap-12">
         <div className="flex justify-between items-center max-md:flex-col gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="sm:text-[44px] text-[32px] text-dark-primary font-semibold leading-[1.1] tracking-tight">
-              Intuitive design <br /> interface
+              Our story
             </h1>
             <p className="text-dark-secondary max-w-[480px]">
-              Our intuitive design interface makes creating stunning content a
-              breeze. With drag-and-drop functionality, customizable templates,
-              and a wide range of design elements, you can easily create
-              professional-looking presentations, documents, and more in
-              minutes.
+              {`At Impress, our story is one of innovation and determination.
+              Founded with a vision to empower individuals and businesses to
+              express their ideas effectively, we've since grown into a leading
+              provider of content creation solutions. Our journey is fueled by a
+              relentless pursuit of excellence and a commitment to delivering
+              unparalleled value to our users.`}
             </p>
           </div>
           <div className="flex items-center overflow-hidden rounded-radius">
@@ -29,13 +37,13 @@ const MessionsSections = () => {
         <div className="flex justify-between items-center max-md:flex-col gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="sm:text-[44px] text-[32px] text-dark-primary font-semibold leading-[1.1] tracking-tight">
-              Seamless collaboration
+              Our mission
             </h1>
             <p className="text-dark-secondary max-w-[480px]">
-              Collaborate effortlessly with your team members, clients, and
-              stakeholders with our seamless collaboration tools. Share, edit,
-              and review content in real-time, track changes, and stay organized
-              with built-in version control.
+              {`Our mission is simple: to provide you with the tools and support
+              you need to unleash your creativity and achieve your goals.
+              Whether you're a seasoned professional or just starting, we're
+              here to help you bring your ideas to life and make an impact.`}
             </p>
           </div>
           <div className="flex items-center overflow-hidden rounded-radius -order-1">
@@ -65,7 +73,7 @@ const MessionsSections = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

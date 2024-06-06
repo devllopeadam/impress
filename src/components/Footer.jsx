@@ -11,7 +11,7 @@ const Footer = () => {
       initial="hidden"
       whileInView={"animate"}
       viewport={{ once: true }}
-      transition={{ duration: 0.5, delay: 0.25 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
       className="py-10">
       <div className="container">
         <div className="flex flex-col gap-4">
@@ -47,7 +47,7 @@ const Footer = () => {
                       type="text"
                       placeholder="Email"
                       required
-                      className="max-sm:w-full rounded-radius flex-1 placeholder:text-dark-secondary h-[52px] text-[14px] bg-white text-dark-primary border border-[#ececec] focus:border-black transition-all duration-200 outline-none py-3 px-5"
+                      className="max-sm:w-full rounded-radius flex-1 placeholder:text-dark-secondary min-h-[52px] text-[14px] bg-white text-dark-primary border border-[#ececec] focus:border-black transition-all duration-200 outline-none py-3 px-5"
                     />
                     <YellowButton text={"Subscribe"} />
                   </div>
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full h-[1px] bg-dark-divider"></div>
-          <div className="flex sm:flex-row flex-col max-sm:items-start gap-5 justify-between items-center w-full">
+          <div className="flex sm:flex-row flex-col-reverse max-sm:items-start gap-5 justify-between items-center w-full">
             <div className="flex items-center gap-4">
               {row2.first.map((ele) => {
                 return (

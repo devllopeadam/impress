@@ -11,7 +11,9 @@ import {
   Error,
   Blogs,
   Blog,
+  Contact,
 } from "./pages";
+import { blogLoader } from "./pages/Blog";
 
 const router = createBrowserRouter([
   {
@@ -41,7 +43,12 @@ const router = createBrowserRouter([
       },
       {
         path: "/blog/:name",
+        loader: blogLoader,
         element: <Blog />,
+      },
+      {
+        path: "/contact-us",
+        element: <Contact />,
       },
     ],
   },

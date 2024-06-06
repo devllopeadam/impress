@@ -23,7 +23,7 @@ const Header = () => {
             {links.map((link) => {
               return (
                 <Link
-                  className="text-[14px] text-dark-secondary hover:text-dark-primary transition-colors font-medium"
+                  className="text-[14px] text-dark-secondary hover:text-dark-primary transition-colors"
                   to={link.href}
                   key={link.label + "_link"}>
                   {link.label}

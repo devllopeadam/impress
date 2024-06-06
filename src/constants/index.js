@@ -1,11 +1,11 @@
-import { Blog1, Blog2, Blog3, Blog7, Blog8, Blog9, Check, Facebook, Features1, Features2, Features3, Features4, Features5, Features6, Instagrame, Linkedin, Logo1, Logo2, Logo3, Logo4, Logo5, Mail, Member1, Member2, Member3, Member4, Message, Minus, Phone, Testimonial1, Testimonial2, Testimonial3, Tiktok, X, Youtube } from "../assets";
+import { Blog1, Blog2, Blog3, Blog4, Blog5, Blog6, Blog7, Blog8, Blog9, Check, Facebook, Features1, Features2, Features3, Features4, Features5, Features6, Instagrame, Linkedin, Logo1, Logo2, Logo3, Logo4, Logo5, Mail, Member1, Member2, Member3, Member4, Message, Minus, Phone, Testimonial1, Testimonial2, Testimonial3, Tiktok, X, Youtube } from "../assets";
 
 const links = [
   { label: "Features", href: "/features" },
   { label: "Pricing", href: "/pricing" },
   { label: "About", href: "/about" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "/contact" }
+  { label: "Contact", href: "/contact-us" }
 ];
 
 const logos = [
@@ -258,6 +258,75 @@ const members = [
   { image: Member2, name: "John Smith", title: "CTO" },
 ];
 
+const blogs = [
+  {
+    image: Blog9,
+    category: "Company news",
+    date: "Jan 23, 2025",
+    blogName: "7 Must Have Tools For Web Designers"
+  },
+  {
+    image: Blog8,
+    category: "Insights",
+    date: "Dec 4, 2024",
+    blogName: "20 Myths About Web Design"
+  },
+  {
+    image: Blog7,
+    category: "Tech Tips",
+    date: "Aug 26, 2024",
+    blogName: "7 Things About Web Design Your Boss Wants To Know"
+  },
+  {
+    image: Blog6,
+    category: "Success Stories",
+    date: "Jun 27, 2024",
+    blogName: "10 Quick Tips About Blogging"
+  },
+  {
+    image: Blog5,
+    category: "Product updates",
+    date: "Mar 15, 2024",
+    blogName: "How To Improve Web Design Process"
+  },
+  {
+    image: Blog4,
+    category: "Product updates",
+    date: "Nov 19, 2023",
+    blogName: "15 Best Blogs To Follow About Web Design"
+  },
+  {
+    image: Blog1,
+    category: "Resources",
+    date: "Nov 8, 2023",
+    blogName: "The History Of Web Design"
+  },
+  {
+    image: Blog3,
+    category: "Insights",
+    date: "Oct 12, 2023",
+    blogName: "7 Of The Best Examples Of Beautiful Blog Design"
+  },
+  {
+    image: Blog2,
+    category: "Tech Tips",
+    date: "Sep 2, 2023",
+    blogName: "5 Principles Of Effective Web Design"
+  },
+];
+
+const smalls = [
+  Facebook,
+  X,
+  Linkedin,
+];
+
+const contacts = [
+  { image: Mail, title: "Email us", subtitle: "Have something to discuss but can't talk right now? Drop an email to impress@me.com, and we'll get back to you as soon as possible." },
+  { image: Phone, title: "Call us", subtitle: "Need immediate assistance? Call +1 234 456 789 and speak with one of our friendly representatives today." },
+  { image: Message, title: "Chat with us", subtitle: "Have a quick question? Chat with us live for instant support and personalized assistance." },
+];
+
 
 export {
   links,
@@ -274,4 +343,7 @@ export {
   pricePlansPricing,
   camparePlans,
   members,
+  blogs,
+  smalls,
+  contacts,
 };

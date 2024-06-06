@@ -6,6 +6,7 @@ import Testimonial from "./Testimonial";
 import BlogBox from "./BlogBox";
 import Accordion from "./Accordion";
 import PageTitle from "./PageTitle";
+import RelatedArticles from './RelatedArticles';
 
 export {
   Header,
@@ -15,5 +16,6 @@ export {
   Testimonial,
   BlogBox,
   Accordion,
-  PageTitle
+  PageTitle,
+  RelatedArticles
 };

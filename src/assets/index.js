@@ -31,6 +31,7 @@ import Member1 from "./images/member1.webp";
 import Member2 from "./images/member2.webp";
 import Member3 from "./images/member3.webp";
 import Member4 from "./images/member4.webp";
+import Cta from "./images/cta.png";
 
 import LogoHeader from "./logos/logo-header.svg";
 import Logo1 from "./logos/logo_1.svg";
@@ -79,6 +80,7 @@ export {
   Member2,
   Member3,
   Member4,
+  Cta,
   AboutHeroImage,
   Elevate,
   Card1,

@@ -1,11 +1,17 @@
 import { motion } from "framer-motion";
-import { members } from "../constants";
+import { members, variants } from "../constants";
 import { Logo1, Logo2, Logo3, Logo4, Logo5 } from "../assets";
 
 const Team = () => {
   return (
     <div className="section">
-      <motion.div className="container flex flex-col gap-8">
+      <motion.div
+        variants={variants}
+        initial="hidden"
+        whileInView={"animate"}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8, delay: 0.3 }}
+        className="container flex flex-col gap-8">
         <div className="flex flex-col gap-6 mx-auto max-w-[800px]">
           <h1 className="max-sm:text-[32px] text-[44px] font-semibold text-dark-primary text-center leading-[1.1] tracking-tight">
             Meet the team

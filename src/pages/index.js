@@ -6,6 +6,7 @@ import Pricing from "./Pricing";
 import Error from "./Error";
 import Blogs from "./Blogs";
 import Blog from "./Blog";
+import Contact from "./Contact";
 
 export {
   Layout,
@@ -16,4 +17,5 @@ export {
   Blogs,
   Blog,
   Error,
+  Contact,
 };
