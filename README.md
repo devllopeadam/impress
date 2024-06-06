@@ -14,7 +14,7 @@ This project is a React application inspired by the Impress template from Webflo
 
 ## Getting Started 🚀
 
-Before you begin, ensure you have Node.js and npm (or yarn) installed on your system. Familiarity with React, Framer Motion, Shadcn UI, and Vite is recommended.
+Before you begin, ensure you have Node.js and npm (or yarn) installed on your system. Familiarity with React, Framer Motion, and Vite is recommended.
 
 1. **Prerequisites**:
 
@@ -23,7 +23,7 @@ Before you begin, ensure you have Node.js and npm (or yarn) installed on your sy
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/devllopeadam/coin-up.git
+   git clone https://github.com/devllopeadam/impress
    ```
 
 3. **Install Dependencies**:
